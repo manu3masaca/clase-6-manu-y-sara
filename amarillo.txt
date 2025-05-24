@@ -1,1 +1,2 @@
 #colores-primarios
+// los colores primarios son tres, otro tipo de trinidad, amarillo-abuela
