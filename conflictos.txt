@@ -1,1 +1,11 @@
-resolverconflictos
+resolver conflictos
+
+//de los conflictos que mas se repitieron fue en el que entre nosotras se sobreponian los textos de unas sobre
+//la otras a la hora de hacer git pull y el programa arrojaba error
+//ej:
+// manue@Manuela-Cantillo-Gonzalez MINGW64 ~/OneDrive/Desktop/ada trabajos/clase6/clase-6-manu-y-sara (main|MERGING)
+//$ git pull
+//error: Pulling is not possible because you have unmerged files.
+//hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+//hint: as appropriate to mark resolution and make a commit.
+//fatal: Exiting because of an unresolved conflict.
