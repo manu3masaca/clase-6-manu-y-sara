@@ -1,2 +1,3 @@
 #colores-primarios
-cd ..
+ //como el cielo 
+
