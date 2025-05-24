@@ -1,15 +1,4 @@
 resolverconflictos
-
-
-
-
-
-
-
-
-
-
-
 //el primer conflicto que surgio se dio porque la participante A subio sus cambios antes que la b,
 poe esto cuando la b trato de subir sus cambios no pudo sin antes hacer un git pull, despues si logro hacer el git push//
 
@@ -44,3 +33,16 @@ Merge made by the 'ort' strategy.
  create mode 100644 abuela.txt
  create mode 100644 hija.txt
  create mode 100644 madre.txt
+
+resolver conflictos
+
+//de los conflictos que mas se repitieron fue en el que entre nosotras se sobreponian los textos de unas sobre
+//la otras a la hora de hacer git pull y el programa arrojaba error
+//ej:
+// manue@Manuela-Cantillo-Gonzalez MINGW64 ~/OneDrive/Desktop/ada trabajos/clase6/clase-6-manu-y-sara (main|MERGING)
+//$ git pull
+//error: Pulling is not possible because you have unmerged files.
+//hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+//hint: as appropriate to mark resolution and make a commit.
+//fatal: Exiting because of an unresolved conflict.
+>>>>>>> 07531ddb2f210a7094118936c02c63a064942392
