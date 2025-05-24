@@ -1,1 +1,46 @@
 resolverconflictos
+
+
+
+
+
+
+
+
+
+
+
+//el primer conflicto que surgio se dio porque la participante A subio sus cambios antes que la b,
+poe esto cuando la b trato de subir sus cambios no pudo sin antes hacer un git pull, despues si logro hacer el git push//
+
+$ git push
+To https://github.com/manu3masaca/clase-6-manu-y-sara.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/manu3masaca/clase-6-manu-y-sara.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+bash: To: command not found
+
+
+//al realizar el git pull la terminal se bloqueo y mostro el mensaje "waiting for your editos to close the file", 
+ al cerrar el aditor, todo se guardo correctamente//
+
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 285 bytes | 8.00 KiB/s, done.
+From https://github.com/manu3masaca/clase-6-manu-y-sara
+   35a8eb9..e9bb120  main       -> origin/main
+Merge made by the 'ort' strategy.
+ abuela.txt | 1 +
+ hija.txt   | 1 +
+ madre.txt  | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 abuela.txt
+ create mode 100644 hija.txt
+ create mode 100644 madre.txt
